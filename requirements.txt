@@ -1,0 +1,10 @@
+# Dépendances spécifiques à l'application (changent plus souvent)
+streamlit>=1.39.0
+requests>=2.32.0
+transformers>=4.40.0
+sentence-transformers>=3.0.0
+huggingface-hub>=0.25.0
+ftfy>=6.2.0
+regex>=2024.0.0
+tqdm>=4.66.0
+git+https://github.com/openai/CLIP.git

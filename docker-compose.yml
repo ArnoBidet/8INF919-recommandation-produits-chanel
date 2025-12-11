@@ -1,0 +1,13 @@
+services:
+  chanel-recommendation:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONPATH=/app
+      - MODELS_DIR=/app/models
+      - STREAMLIT_THEME_BASE=light
+      - STREAMLIT_THEME_PRIMARY_COLOR=#000000
+      - STREAMLIT_THEME_BACKGROUND_COLOR=#FFFFFF
+      - STREAMLIT_THEME_SECONDARY_BACKGROUND_COLOR=#F0F0F0
+    restart: unless-stopped

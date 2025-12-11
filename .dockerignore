@@ -1,0 +1,25 @@
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Développement local
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+README.md
+ARCHITECTURE.md
+
+# OS
+.DS_Store
+Thumbs.db
