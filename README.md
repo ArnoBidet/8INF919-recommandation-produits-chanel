@@ -243,6 +243,6 @@ docker-compose exec chanel-recommendation bash
 
 ---
 
-📧 **Contact** : Pour questions techniques ou contributions, contactez l'équipe de développement.
+ **Contact** : Pour questions techniques ou contributions, contactez l'équipe de développement.
 
-🎯 **Objectif** : Révolutionner l'expérience d'achat Chanel grâce à l'IA et aux technologies de recommendation avancées.
+ **Objectif** : Révolutionner l'expérience d'achat Chanel grâce à l'IA et aux technologies de recommendation avancées.
