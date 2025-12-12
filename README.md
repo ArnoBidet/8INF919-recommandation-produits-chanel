@@ -105,13 +105,13 @@ python test_system.py
 ### Mode Recherche par Image
 1. Cliquez sur "Recherche par image"
 2. Uploadez une image (JPG, PNG, JPEG)
-3. Cliquez "🔍 Rechercher des produits similaires"
+3. Cliquez "Rechercher des produits similaires"
 4. Visualisez les recommandations avec scores de similarité
 
 ### Mode Recherche par Texte
 1. Sélectionnez "Recherche par texte"
 2. Saisissez votre description (ex: "sac noir élégant", "parfum floral")
-3. Cliquez "🔍 Rechercher des produits"
+3. Cliquez "Rechercher des produits"
 4. Explorez les résultats correspondants
 
 ### Mode Recherche Combinée
