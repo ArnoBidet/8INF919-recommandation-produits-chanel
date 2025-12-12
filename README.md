@@ -1,28 +1,28 @@
-# 🛍️ Plateforme de Recommandation de Produits Chanel
+# Plateforme de Recommandation de Produits Chanel
 
 Une plateforme interactive de recommandation de produits Chanel utilisant l'intelligence artificielle pour proposer des produits similaires basés sur des critères visuels et textuels.
 
-## 🎯 Fonctionnalités
+## Fonctionnalités
 
-### 1. 🖼️ Recherche par Image
+### 1. Recherche par Image
 - Uploadez une image de produit
 - IA analyse les caractéristiques visuelles
 - Recommande les 10 produits les plus similaires visuellement
 - Utilise le modèle CLIP (OpenAI) pour comprendre le contenu visuel
 
-### 2. 📝 Recherche par Texte
+### 2. Recherche par Texte
 - Saisissez une description textuelle du produit recherché
 - IA analyse le contenu sémantique du texte
 - Propose des produits correspondant à la description
 - Utilise SentenceTransformers (all-mpnet-base-v2) pour l'analyse textuelle
 
-### 3. 🔄 Recherche Combinée
+### 3. Recherche Combinée
 - Combinez une image ET une description textuelle
 - Système hybride pondérant les similarités visuelles et textuelles
 - Curseur ajustable pour équilibrer l'importance image vs texte
 - Recommandations ultra-précises
 
-## 🏗️ Architecture Technique
+## Architecture Technique
 
 ### Modèles d'IA Utilisés
 
@@ -48,7 +48,7 @@ Une plateforme interactive de recommandation de produits Chanel utilisant l'inte
 - **Déployement**: Docker + Docker Compose
 - **Data**: Pandas + NumPy + Scikit-learn
 
-## 📦 Installation et Déployement
+## Installation et Déployement
 
 ### Prérequis
 - Docker et Docker Compose installés
@@ -103,19 +103,19 @@ python test_system.py
 3. **Zone Principale** : Interface de recherche et résultats
 
 ### Mode Recherche par Image
-1. Cliquez sur "🖼️ Recherche par image"
+1. Cliquez sur "Recherche par image"
 2. Uploadez une image (JPG, PNG, JPEG)
 3. Cliquez "🔍 Rechercher des produits similaires"
 4. Visualisez les recommandations avec scores de similarité
 
 ### Mode Recherche par Texte
-1. Sélectionnez "📝 Recherche par texte"
+1. Sélectionnez "Recherche par texte"
 2. Saisissez votre description (ex: "sac noir élégant", "parfum floral")
 3. Cliquez "🔍 Rechercher des produits"
 4. Explorez les résultats correspondants
 
 ### Mode Recherche Combinée
-1. Choisissez "🔄 Recherche combinée"
+1. Choisissez "Recherche combinée"
 2. Uploadez une image de référence
 3. Ajoutez une description complémentaire
 4. Ajustez le curseur Image/Texte selon vos préférences
@@ -127,7 +127,7 @@ python test_system.py
 - **Prix** : Prix en euros si disponible
 - **Code Produit** : Référence unique Chanel
 
-## 🔧 Configuration Avancée
+## Configuration Avancée
 
 ### Personnaliser les Modèles
 Modifiez `config.py` pour ajuster :
@@ -149,7 +149,7 @@ environment:
 - **Mémoire** : Ajustez les limits dans docker-compose.yml
 - **Cache** : Les embeddings sont pré-calculés pour une performance optimale
 
-## 📊 Dataset
+## Dataset
 
 ### Statistiques
 - **~1000+ produits Chanel** (chaussures, sacs, parfums, cosmétiques, etc.)
@@ -162,7 +162,7 @@ environment:
 2. **Texte** : Enrichissement avec catégories + prix, nettoyage des données
 3. **Embeddings** : Pré-calculés et optimisés pour la performance
 
-## 🧪 Validation et Métriques
+## Validation et Métriques
 
 ### Métriques de Qualité
 - **Silhouette Score** : Qualité des clusters par catégorie
@@ -174,15 +174,15 @@ environment:
 - Comparaison multi-méthodes (CNN vs CLIP vs ViT vs BERT)
 - Analyse t-SNE des espaces d'embedding
 
-## 🚀 Évolutions Futures
+## Évolutions Futures
 
 ### Fonctionnalités Envisagées
-- 🔐 **Authentification utilisateur** avec profils personnalisés
-- 💾 **Base de données** PostgreSQL pour persistence
-- 📈 **Analytics** et tracking des interactions
-- 🎨 **Filtres avancés** par prix, couleur, taille
-- 📱 **API REST** pour intégration mobile
-- 🤖 **Fine-tuning** des modèles sur données Chanel spécifiques
+-  **Authentification utilisateur** avec profils personnalisés
+-  **Base de données** PostgreSQL pour persistence
+-  **Analytics** et tracking des interactions
+-  **Filtres avancés** par prix, couleur, taille
+-  **API REST** pour intégration mobile
+-  **Fine-tuning** des modèles sur données Chanel spécifiques
 
 ### Scalabilité
 - Déployement Kubernetes pour haute disponibilité
@@ -190,7 +190,7 @@ environment:
 - CDN pour distribution optimale des images
 - Load balancing pour gestion de charge
 
-## 🤝 Contributeurs
+## Contributeurs
 
 **Équipe de développement :**
 - Johanu GANDONOU
@@ -200,7 +200,7 @@ environment:
 
 ---
 
-## 🛠️ Support Technique
+## Support Technique
 
 ### Problèmes Fréquents
 
